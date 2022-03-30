@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+<div class="parent">
+    <div class="child">
+        <p>Contact us</p>
+        <form id="my_form" action="">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required>
+          </div>
+          <div>
+            <label for="name">Last Name</label>
+            <input type="text" name="name" id="last_name" required>
+        </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+
+          <div>
+            What instruments should be added next?
+            <div>
+              <label for="guitar">Guitar</label>
+              <input type="checkbox" name="guitar" id="guitar">
+            </div>
+            <div>
+              <label for="bass">Bass</label>
+              <input type="checkbox" name="bass" id="bass">
+            </div>
+
+            <div>
+                <label for="drums">Drums</label>
+                <input type="checkbox" name="drums" id="drums">
+              </div>
+          </div>
+          <div>
+            <label for="bio">What would you like to see in the future?</label>
+            <textarea id="bio" name="bio" cols="50" rows="5" placeholder="Type your preferneces here..."></textarea>
+          </div>
+          
+          <div>
+            <label for="file">Upload a short music video where playing on one of
+                our instruments and you may be included in our new ads and features
+            </label>
+            <br>
+            <input id="file" type="file" name="file">
+          </div>
+          <button type="reset" class="reset">Reset</button>
+          <button id="nextStep">Submit</button>
+        </form>
+          <div id="thank_you" >
+            <p>Thanks for filling up the form!</p>
+            <button type="submit"><a href="../index.html" class="close">Close</a></button>
+          </div>
+        
+        
+    </div>
+    <span><a href="../index.html" class="back">Go back To the main stuff</a></span>
+</div>
+
+<div class="last-footer">
+    <p>Copyright 2022. All rights reserved <span class="theme">MusicTasteLtd.</span></p>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrument</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/new.css">
+    <script src="../js/new.js" defer></script>
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    
+    <div class="header1">
+       <div class="name_"><h1>MusicTaste</h1></div>
+       <ul class="first-menu">
+       <li><a href="#" class="up_">Sign Up </a></li>
+       <li><a href="#" class="in_"> Sign In</a></li>
+       </ul>
+   </div>
+   <header>
+       <nav>
+          
+           <ul class="nav-menu">
+               <li><a href="../index.html">WELCOME</a></li>
+               <li><a href="aboutus.html">ABOUT US</a></li>
+               <li><a href="#" id="music1">MUSIC THEORY</a></li>
+               <!-- <li><a href="#" onclick="myFunction()" class="dropbtn">INSTRUMENTS</a></li> -->
+               <li><div class="dropdown">
+                <a onclick="myFunction()" class="dropbtn">INSTRUMENTS</a>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Guitars</a>
+                  <a href="#">Bass</a>
+                  <a href="#">Drums</a>
+                </div>
+              </div></li>
+               <li><a href="#" id="metr1">METRONOME</a></li>
+               <li><a href="#">MAKE A DRUM CONFIGURATION</a></li>
+               <li><a href="contactus.html">CONTACT US</a></li>
+           </ul>
+       </nav>
+   </header>
+<div id="main">
+   <div id="parent">
+       <div id="child">
+        <div id="guitars">
+            <ul class="order_guitar">
+                <li><img src="../images/ltd1.png" alt="ltd_guitar" class="ltd1"></li>
+                <li>
+                    <ul class="specs">
+                        <li>ESP LTD MH-1001NT STBLK</li>
+                        <li>Body: Mahogany</li>
+                        <Li>Fretboard radius: 350 mm</Li>
+                        <li>Fretboard: Macassar ebony</li>
+                        <li>Pickups: 2 x Active EMG 85BBC (neck) </li>
+                        <li>3-Way toggle switch</li>
+                        <li>Colour: See-Thru Black</li>
+                        <li>Scale: 648 mm</li>
+                        <li><h4>*30-Day Money-Back Guarantee😄</h4></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul id="priced">
+                        <li><h2>Price: £922</h2></li>
+                        <li><a href="../index.html"><img src="../images/leftarrow.svg" alt="left arrow" class="leftarrow"></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="cart_buy">
+        <div class="cart">Add to cart</div>
+        <div class="container">
+            <div class="card">
+                <button onclick="decrement()">-</button>
+                <h2 id="root"></h2>
+                <button onclick="increment()">+</button>
+            </div>
+        </div>
+        <div class="buy">Buy</div>
+        </div>
+       </div>
+   </div>
+</div>
+<footer>
+    <ul>
+        <h4>Our coordinates</h4>
+        <li>+359 888 4764</li>
+        <li>+359 888 5555</li>
+        <li>mtaste@shop.com</li>
+    </ul>
+
+    <ul>
+        <h4>FaQ</h4>
+        <li>HOW LONG DOES IT TAKE TO MAKE A DELIVERY?</li>
+        <li>HOW OFTEN ARE ADDED NEW INSTRUMENTS?</li>
+        <li>HOW OFTEN ARE ADDED NEW ARRTICLES?</li>
+        <li>IS THERE A PREMIUM USER SUBSCRIBTION? </li>
+    </ul>
+
+    <ul>
+        <h4>LEARN MORE</h4>
+        <li>WHERE ARE WE PLANNING TO EXPAND?</li>
+        <li>ARE THERE ANY NEW FUTURE PROJECTS AND FEATURES TO BE ADDED?</li>
+    </ul>
+
+    <ul>
+        <h4>SOCIAL MEDIA</h4>
+        <li><img src="../images/facebook-brands.svg" alt="fb_icon" class="fb"></li>
+        <li><img src="../images/instagram-brands.svg" alt="ig_icon" class="ig"></li>
+        <li><img src="../images/linkedin-brands.svg" alt="link_icon" class="link"></li>
+    </ul>
+</footer>
+
+<div class="last-footer">
+    <p>Copyright 2022. All rights reserved <span class="theme">MusicTasteLtd.</span></p>
+</div>
+   </footer>
+</body>
+</html>
