@@ -1,4 +1,4 @@
-import Timer from './timer.js';
+import Timer from '../js/timer.js';
 
 const tempoDisplay = document.querySelector('.tempo');
 const tempoText = document.querySelector('.tempo-text');
