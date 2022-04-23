@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/readmore.css">
+    <link rel="stylesheet" href="./css/indexResponsive.css">
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/readmore.js" defer></script>
 </head>
 <body>
     
     <div class="header1">
        <div class="name_"><h1>MusicTaste</h1></div>
        <ul class="first-menu">
-       <li><a href="#" class="up_">Sign Up </a></li>
-       <li><a href="#" class="in_"> Sign In</a></li>
+       <li><a href="./html/login.html" class="up_">Sign Up </a></li>
+       <li><a href="./html/login.html" class="in_"> Sign In</a></li>
        </ul>
    </div>
    <header>
@@ -29,11 +33,11 @@
                 <a onclick="myFunction()" class="dropbtn">INSTRUMENTS</a>
                 <div id="myDropdown" class="dropdown-content">
                   <a href="#">Guitars</a>
-                  <a href="#">Bass</a>
+                  <a href="./html/bassShop.html">Bass</a>
                   <a href="#">Drums</a>
                 </div>
               </div></li>
-               <li><a href="#" id="metr1">METRONOME</a></li>
+               <li><a href="./html/metronome.html" id="metr1">METRONOME</a></li>
                <li><a href="#">MAKE A DRUM CONFIGURATION</a></li>
                <li><a href="./html/contactus.html">CONTACT US</a></li>
            </ul>
@@ -53,7 +57,7 @@
        <div class="content">
             <div id="guitars">
                 <ul class="order_guitar">
-                    <li><img src="../images/ltd1.png" alt="ltd_guitar" class="ltd1"></li>
+                    <li><img src="./images/ltd1.png" alt="ltd_guitar" class="ltd1"></li>
                     <li>
                         <ul class="specs">
                             <li>ESP LTD MH-1001NT STBLK</li>
@@ -62,12 +66,12 @@
                             <li>Fretboard: Macassar ebony</li>
                         </ul>
                     </li>
-                    <li><a href="../html/newinstrument.html"><img src="../images/leftarrow.svg" alt="left arrow" class="leftarrow"></a></li>
+                    <li><a href="./html/newinstrument.html"><img src="./images/leftarrow.svg" alt="left arrow" class="leftarrow"></a></li>
                 </ul>
             </div>
             <div id="guitars">
                 <ul class="order_guitar">
-                    <li><img src="../images/solar1.png" alt="ltd_guitar" class="solar1"></li>
+                    <li><img src="./images/solar1.png" alt="ltd_guitar" class="solar1"></li>
                     <li>
                         <ul class="specs">
                             <li>Solar Guitars E1.7FBB Canibalismo</li>
@@ -76,24 +80,46 @@
                             <li>Fretboard: Ebony</li>
                         </ul>
                     </li>
-                    <li><a href="#"><img src="../images/leftarrow.svg" alt="left arrow" class="leftarrow"></a></li>
+                    <li><a href="#"><img src="./images/leftarrow.svg" alt="left arrow" class="leftarrow"></a></li>
                 </ul>
             </div>
             <div id="articles">
             <article class="artt1">
+                <div class="large-content">
+                <div class="visible-content">
                 <p>The Impact of Music on Human Development and Well-Being</p>
                 <span class="new">Music is one of the most universal ways of expression and communication for humankind and is present in the everyday lives of
                  people of all ages and from all cultures around the world.  (Mehr et al., 2019). Hence, it seems more appropriate to talk 
-                 about musics (plural) rather than in the singular (Goble, 2015).</span>
-                  <a href="#"><img src="../images/leftarrow.svg" alt="left arrow" class="leftarrow"></a>
+                 about musics (plural) rather than in.</span>
+                 </div>
+                 <div class="invisible-content">
+                     <span class="new">These activities not only allow the expression of personal inner states and feelings, but also can bring about many 
+                         positive effects in those who engage in them. There is an increasing body of empirical and experimental studies concerning 
+                         the wider benefits of musical activity, and</span>
+                 </div>
+                 <button class="btn more-less">Read more</button>
+                </div>
+                  <a href="#"><img src="./images/leftarrow.svg" alt="left arrow" class="leftarrow"></a>
             </article>
             </div>
             <div id="articles1">
             <article class="artt2">
+                <div class="large-content">
+                    <div class="visible-content">
                 <p>Music for the Dark at an Experimental Festival</p>
-                <span class="new">GATESHEAD, England — Early on Saturday evening, the final strains of Gavin Bryars’s looping “Jesus’ Blood Never Failed Me Yet” faded into silence at a vast concert hall here. After some polite applause, several hundred audience members prized themselves out of chunky beanbag chairs and headed off to 
-                find their next listening...</span>
-                  <a href="#"><img src="../images/leftarrow.svg" alt="left arrow" class="leftarrow"></a>
+                <span class="new">GATESHEAD, England — Early on Saturday evening, the final strains of Gavin Bryars’s 
+                    looping “Jesus’ Blood Never Failed Me Yet” faded into silence at a vast concert hall here. After some polite applause, 
+                    several hundred audience members prized themselves out of chunky beanbag chairs and headed..</span>
+                </div>
+                <div class="invisible-content">
+                    <span class="new">All were on offer at the inaugural After Dark Festival, organized by the BBC’s classical
+                         music station, Radio 3,in Sage Gateshead, a shiny, undulating arts venue on the banks of the River Tyne 
+                         in northeast England. The festival’s diverse lineup of music evades an easy collective term: Neo-classical? 
+                         Experimental?</span>
+                </div>
+                <button class="btn more-less">Read more</button>
+               </div>
+                  <a href="#"><img src="./images/leftarrow.svg" alt="left arrow" class="leftarrow"></a>
             </article>
             </div>
         </div>
@@ -123,9 +149,9 @@
 
     <ul>
         <li class="fourh">SOCIAL MEDIA</li>
-        <li><img src="../images/facebook-brands.svg" alt="fb_icon" class="fb"></li>
-        <li><img src="../images/instagram-brands.svg" alt="ig_icon" class="ig"></li>
-        <li><img src="../images/linkedin-brands.svg" alt="link_icon" class="link"></li>
+        <li><img src="./images/facebook-brands.svg" alt="fb_icon" class="fb"></li>
+        <li><img src="./images/instagram-brands.svg" alt="ig_icon" class="ig"></li>
+        <li><img src="./images/linkedin-brands.svg" alt="link_icon" class="link"></li>
     </ul>
 </footer>
 
@@ -133,5 +159,6 @@
     <p>Copyright 2022. All rights reserved <span class="theme">MusicTasteLtd.</span></p>
 </div>
    </footer>
+ 
 </body>
 </html>

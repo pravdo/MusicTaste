@@ -1,0 +1,33 @@
+@media screen and (min-width: 501px) and (max-width: 1024px){
+    .first-menu{
+        margin-left: 40%;
+}
+    .nav-menu{
+        display: block;
+        justify-content:center;
+        height: 120px;
+    }
+    #music1,
+    #metr1 {
+  margin-right: 10px;
+}
+
+    #guitars{
+        width: 80%;
+        margin: auto;
+    }
+
+
+    #bigdiv{
+        height: 130vh;
+    }
+
+    #articles{
+        margin-top: 23px;
+        margin-left: 80px;
+    }
+    #articles1{
+        margin-top: -44vh;
+        margin-right: 80px;
+    }
+}

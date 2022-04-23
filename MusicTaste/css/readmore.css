@@ -1,0 +1,25 @@
+.large-content .more-less{
+    border:none;
+    background:bisque;
+    font-size:16px;
+    margin:5px 0px;
+    text-decoration:none;
+    cursor:pointer;
+    padding-left:0px;
+   }
+   .large-content .more-less:focus{
+     outline:unset;
+   }
+   .large-content .more-less:hover{
+     color:#d64f03;
+   }
+    
+    .large-content p{
+      font-size:16px;
+     
+   }
+   html, body{
+     padding: 0px;
+     margin: 0px;
+     overflow-x: hidden;
+   }

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bass Shop</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bassShop.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+   <!-- <script src="../js/script.js" defer></script> -->
+    
+</head>
+<body>
+    
+    <div class="header1">
+       <div class="name_"><h1>MusicTaste</h1></div>
+       <ul class="first-menu">
+       <li><a href="../html/login.html" class="up_">Sign Up </a></li>
+       <li><a href="../html/login.html" class="in_"> Sign In</a></li>
+       </ul>
+   </div>
+   <header>
+       <nav>
+          
+           <ul class="nav-menu">
+               <li><a href="../index.html">WELCOME</a></li>
+               <li><a href="../html/aboutus.html">ABOUT US</a></li>
+               <li><a href="#" id="music1">MUSIC THEORY</a></li>
+               <!-- <li><a href="#" onclick="myFunction()" class="dropbtn">INSTRUMENTS</a></li> -->
+               <li><div class="dropdown">
+                <a onclick="myFunction()" class="dropbtn">INSTRUMENTS</a>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Guitars</a>
+                  <a href="#">Bass</a>
+                  <a href="#">Drums</a>
+                </div>
+              </div></li>
+               <li><a href="../html/metronome.html" id="metr1">METRONOME</a></li>
+               <li><a href="#">MAKE A DRUM CONFIGURATION</a></li>
+               <li><a href="contactus.html">CONTACT US</a></li>
+           </ul>
+       </nav>
+   </header>
+
+
+<div class="container">
+    <h1>
+        Bass
+        <div class="first">
+            <span class="glyphicon glyphicon-shopping-cart my-cart-icon">
+                <span class="badge badge-notify my-cart-badge"></span>
+            </span>
+        </div>
+    </h1>
+    <button type="addNewProduct" name="addNewProduct" id="addNewProduct">
+        Add New Instrument
+    </button>
+    <div class="row">
+        <div class="col-md-3 text-center">
+            <img src="../images/bassHarley.png" width="270" height="270" alt="">
+            <br><br>
+            Harley Benton MB-4 SBK - <strong>£105</strong>
+            <br><br>
+            <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" 
+            data-summary="summary 1" data-price="105" data-quantity="1" data-image="../images/bassHarley.png">
+            Add to cart
+        </button>
+        <a href="" class="btn btn-info">Details</a>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="../images/bassMarcus.png" width="270" height="270" alt="">
+            <br><br>
+            Marcus Miller V3 BK - <strong>£259</strong>
+            <br><br>
+            <button class="btn btn-danger my-cart-btn" data-id="2" data-name="product 2" 
+            data-summary="summary 2" data-price="259" data-quantity="1" data-image="../images/bassMarcus.png">
+            Add to cart
+        </button>
+        <a href="" class="btn btn-info">Details</a>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="../images/bassCort.png" width="270" height="270" alt="">
+            <br><br>
+            Cort A4 Ultra Ash - <strong>£929</strong>
+            <br><br>
+            <button class="btn btn-danger my-cart-btn" data-id="3" data-name="product 3" 
+            data-summary="summary 3" data-price="929" data-quantity="1" data-image="../images/bassCort.png">
+            Add to cart
+        </button>
+        <a href="" class="btn btn-info">Details</a>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="../images/bassSquire.png" width="270" height="270" alt="">
+            <br><br>
+            Squier Mini P Bass Dakota - <strong>£133</strong>
+            <br><br>
+            <button class="btn btn-danger my-cart-btn" data-id="4" data-name="product 4" data-summary="summary 4"
+             data-price="133" data-quantity="1" data-image="../images/bassSquire.png">
+            Add to cart
+        </button>
+        <a href="" class="btn btn-info">Details</a>
+        </div>
+
+
+
+        
+    </div>
+</div>
+
+
+   <footer>
+    <ul>
+        <li class="fourh">Our coordinates</li>
+        <li>+359 888 4764</li>
+        <li>+359 888 5555</li>
+        <li>mtaste@shop.com</li>
+    </ul>
+
+    <ul>
+        <li class="fourh">FaQ</li>
+        <li>HOW LONG DOES IT TAKE TO MAKE A DELIVERY?</li>
+        <li>HOW OFTEN ARE ADDED NEW INSTRUMENTS?</li>
+        <li>HOW OFTEN ARE ADDED NEW ARRTICLES?</li>
+        <li>IS THERE A PREMIUM USER SUBSCRIBTION? </li>
+    </ul>
+
+    <ul>
+        <li class="fourh">LEARN MORE</li>
+        <li>WHERE ARE WE PLANNING TO EXPAND?</li>
+        <li>ARE THERE ANY NEW FUTURE PROJECTS AND FEATURES TO BE ADDED?</li>
+    </ul>
+
+    <ul>
+        <li class="fourh">SOCIAL MEDIA</li>
+        <li><img src="../images/facebook-brands.svg" alt="fb_icon" class="fb"></li>
+        <li><img src="../images/instagram-brands.svg" alt="ig_icon" class="ig"></li>
+        <li><img src="../images/linkedin-brands.svg" alt="link_icon" class="link"></li>
+    </ul>
+</footer>
+
+<div class="last-footer">
+    <p>Copyright 2022. All rights reserved <span class="theme">MusicTasteLtd.</span></p>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+<script src="../js/jquery.mycart.js"></script>
+   <script src="../js/bassShop.js"></script>
+</body>
+</html>
